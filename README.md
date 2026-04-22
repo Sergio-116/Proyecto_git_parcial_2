@@ -69,3 +69,17 @@ Para eliminar un documento o carpeta hay dos maneras de llevar a cabo **rmdir no
 
 
 
+### ¿Cuáles son los pasos para crear repositorio remoto, sincrinizar, clonar a nivel local, para luego subir infromación y corroborar se estado a través de la terminal de github bash?
+
+
+1. Paso inicial, se crea el repositorio desde la web ingresando al git hub 
+2. después se debe copiar la URL del repositorio 
+3. En la carpeta deseada se debe iniciar el **git init**
+4. git clone https://URL_repositorio.git
+5. Se lista que clono y prosede a crear las carpetas que de desee
+6. se crea el archivo **type nul > archivo.md**
+7. git add .
+8. git commit -m "Primer commit"
+9. git remote add origin URL
+10. git push -u origin main
+
